@@ -7,7 +7,10 @@ import webbrowser
 
 
 class Movie(object):
-    """This class provides a way to store movies."""
+    """
+    The media Class is the container of the movies' info.
+    Title, intro, cover jpg's URL and the trailer's URL should be given in order.
+    """
     VALID_RATINGS = ("G", "PG", "PG-13", "R")
 
     def __init__(self, title, story, poster, trailer):

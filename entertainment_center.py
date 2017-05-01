@@ -7,20 +7,18 @@ import fresh_tomatoes
 import media
 
 """
-The media Class is the container of the movies' info.
+media.Movie(Title, intro, cover jpg's URL and the trailer's URL)
+should be given in order.
 
-The fresh_tomatoes Class takes charge of rendering pages basic on the given
-movies' info.
-
-Title, intro, cover jpg's URL and the trailer's URL should be given in order.
+Each variable is an instance of the item shown in index page, and the list
+`movies` is the list containing all the movies and should be kept in pace with
+the movie instances given separately.
 """
 
 toy_story = media.Movie(
     "Toy Story", "A Story of a boy and his toys that come to life",
     "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
     "https://www.youtube.com/watch?v=KYz2wyBy3kc")
-
-# print(toy_story.story)
 
 finding_nemo = media.Movie(
     "Finding Nemo", "The story of the clownfish named Marlin",
